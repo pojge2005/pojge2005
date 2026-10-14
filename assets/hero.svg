@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Prasanna — Build beyond the ordinary</title>
+<desc id="desc">Original anime-inspired young engineer in a futuristic workshop with a glowing robot, sunset city and holographic code panels.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#060b19"/><stop offset=".55" stop-color="#17153b"/><stop offset="1" stop-color="#43165e"/></linearGradient>
+ <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffe0a6"/><stop offset=".55" stop-color="#ff8f9c"/><stop offset="1" stop-color="#9c59ff"/></linearGradient>
+ <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe0c1"/><stop offset="1" stop-color="#c9857c"/></linearGradient>
+ <linearGradient id="jacket" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#182b55"/><stop offset="1" stop-color="#080d1b"/></linearGradient>
+ <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6f8ff"/><stop offset="1" stop-color="#7589ae"/></linearGradient>
+ <radialGradient id="aura"><stop stop-color="#29ddff" stop-opacity=".5"/><stop offset="1" stop-color="#29ddff" stop-opacity="0"/></radialGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="20"/></filter>
+ <filter id="shadow"><feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#000" flood-opacity=".65"/></filter>
+</defs>
+<rect width="1200" height="420" rx="22" fill="url(#bg)"/>
+<circle cx="1020" cy="115" r="106" fill="url(#sun)"><animate attributeName="opacity" values=".78;1;.78" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="1020" cy="115" r="155" fill="#ff72c6" opacity=".2" filter="url(#blur)"/>
+<!-- skyline -->
+<path d="M0 270 90 225 142 256 205 197 270 262 338 218 410 265 505 208 570 266 652 221 727 270 813 215 884 265 965 212 1042 265 1120 225 1200 254V420H0Z" fill="#11152e"/>
+<g fill="#090f23" stroke="#293564" stroke-width="2"><path d="M790 245V134h42v111M842 245V178h35v67M885 245V115h54v130M947 245V158h37v87M994 245V137h48v108M1052 245V174h35v71M1097 245V145h46v100"/></g>
+<g stroke="#35ddff" stroke-width="3" opacity=".55"><path d="M0 343H1200M0 378H1200M60 300V420M130 300V420M200 300V420M270 300V420M340 300V420M410 300V420M480 300V420M550 300V420M620 300V420M690 300V420M760 300V420M830 300V420M900 300V420M970 300V420M1040 300V420M1110 300V420"/></g>
+<!-- floating code panels -->
+<g font-family="monospace" font-size="12">
+ <g transform="translate(790 40)"><rect width="170" height="104" rx="10" fill="#081528" fill-opacity=".84" stroke="#38dfff" stroke-opacity=".8"/><circle cx="14" cy="14" r="3" fill="#ff719f"/><circle cx="25" cy="14" r="3" fill="#ffc56b"/><circle cx="36" cy="14" r="3" fill="#45edb0"/><path d="M14 35H91M14 48H145M14 61H119M14 74H78M14 87H132" stroke="#4fe4ff" stroke-width="3" stroke-linecap="round" opacity=".8"><animate attributeName="opacity" values=".4;1;.4" dur="3s" repeatCount="indefinite"/></path></g>
+ <g transform="translate(1010 184)"><rect width="144" height="74" rx="10" fill="#170d2c" fill-opacity=".9" stroke="#c779ff"/><text x="14" y="28" fill="#ffb6e3" font-size="13">BUILD / TEST</text><text x="14" y="49" fill="#70edff">ITERATE →</text><path d="M14 60H122" stroke="#9a64ff" stroke-width="2"/></g>
+</g>
+<!-- desk and aura -->
+<ellipse cx="805" cy="331" rx="290" ry="125" fill="url(#aura)"><animate attributeName="opacity" values=".35;.9;.35" dur="3.5s" repeatCount="indefinite"/></ellipse>
+<path d="M435 335H1200V420H400Z" fill="#080d1b" stroke="#273d71" stroke-width="3"/><path d="M430 344H1190" stroke="#40e7ff" stroke-width="3" opacity=".8"/>
+<!-- anime engineer -->
+<g filter="url(#shadow)">
+ <path d="M666 275Q715 242 762 268L824 310Q844 350 846 420H585Q598 323 666 275Z" fill="url(#jacket)" stroke="#28477e" stroke-width="3"/>
+ <path d="M691 273 715 312 743 274 775 420H638Z" fill="#111f3f"/>
+ <path d="M692 273 715 301 739 273" fill="none" stroke="#38dfff" stroke-width="4"/>
+ <path d="M676 214V268Q711 292 744 259L733 204Z" fill="url(#skin)"/>
+ <ellipse cx="653" cy="177" rx="14" ry="21" fill="#dca087"/><ellipse cx="763" cy="177" rx="14" ry="21" fill="#dca087"/>
+ <path d="M640 133Q641 88 703 83Q761 91 772 139L755 207Q739 245 704 249Q665 240 648 205Z" fill="url(#skin)"/>
+ <!-- hair -->
+ <path d="M632 166Q613 126 640 99L623 80 657 88 654 54 681 80 696 45 713 78 744 57 739 89 777 77 762 111Q785 139 769 174L751 147 741 120 719 140 704 113 681 139 662 121 647 153Z" fill="#101522" stroke="#29334f" stroke-width="3"/>
+ <path d="M644 108 663 90M682 98 697 76M720 102 746 88" stroke="#53627f" stroke-width="4"/>
+ <path d="M653 166Q671 150 691 168Q673 187 655 171Z" fill="#fff"/><path d="M716 168Q735 151 752 166Q736 185 717 171Z" fill="#fff"/>
+ <ellipse cx="673" cy="169" rx="7" ry="10" fill="#22d4ff"/><ellipse cx="733" cy="168" rx="7" ry="10" fill="#22d4ff"/><circle cx="674" cy="169" r="3" fill="#10172a"/><circle cx="734" cy="168" r="3" fill="#10172a"/>
+ <path d="M649 157 690 158M713 157 753 156" stroke="#22263b" stroke-width="6" stroke-linecap="round"/>
+ <path d="M692 202Q705 212 719 201" fill="none" stroke="#994e62" stroke-width="3" stroke-linecap="round"/>
+ <path d="M694 180 688 196 701 199" fill="none" stroke="#c17b70" stroke-width="2"/>
+ <!-- arm -->
+ <path d="M627 304Q661 315 690 338L741 351Q756 359 747 372Q739 383 720 376L658 360Q626 348 612 331Z" fill="#0c1932" stroke="#284477" stroke-width="3"/>
+ <!-- laptop -->
+ <path d="M448 283Q448 270 462 270H633L656 355H457Z" fill="#10182e" stroke="#4bdaff" stroke-width="3"/>
+ <path d="M464 286H620L636 339H478Z" fill="#1b2850"/>
+ <path d="M478 301H554M478 313H591M478 325H540" stroke="#45e4ff" stroke-width="3" stroke-linecap="round"/>
+ <circle cx="604" cy="311" r="12" fill="#9068ff"/><path d="M598 311 603 316 611 306" fill="none" stroke="#fff" stroke-width="3"/>
+</g>
+<!-- robot companion -->
+<g transform="translate(903 256)" filter="url(#shadow)">
+ <animateTransform attributeName="transform" type="translate" values="903 256;903 247;903 256" dur="2.8s" repeatCount="indefinite"/>
+ <ellipse cx="0" cy="125" rx="58" ry="12" fill="#000" opacity=".6"/>
+ <path d="M-30 78-42 111M30 78 42 111" stroke="#a5b5d1" stroke-width="14" stroke-linecap="round"/>
+ <rect x="-50" y="14" width="100" height="78" rx="24" fill="url(#steel)" stroke="#e5f2ff" stroke-width="3"/>
+ <rect x="-40" y="26" width="80" height="49" rx="16" fill="#071326" stroke="#45e6ff" stroke-width="3"/>
+ <ellipse cx="-18" cy="49" rx="9" ry="12" fill="#20e7ff"><animate attributeName="ry" values="12;2;12" dur="4.2s" repeatCount="indefinite" keyTimes="0;.06;.13"/></ellipse>
+ <ellipse cx="18" cy="49" rx="9" ry="12" fill="#20e7ff"><animate attributeName="ry" values="12;2;12" dur="4.2s" repeatCount="indefinite" keyTimes="0;.06;.13"/></ellipse>
+ <path d="M-10 64Q0 72 10 64" fill="none" stroke="#9b86ff" stroke-width="3" stroke-linecap="round"/>
+ <rect x="-32" y="-2" width="64" height="21" rx="10" fill="#d6e0f5" stroke="#f4f7ff" stroke-width="3"/><circle cy="8" r="7" fill="#39e7ff"/>
+ <path d="M-50 43-65 58M50 43 65 58" stroke="#b6c7e6" stroke-width="10" stroke-linecap="round"/><circle cx="-65" cy="60" r="7" fill="#38e8ff"/><circle cx="65" cy="60" r="7" fill="#38e8ff"/>
+</g>
+<!-- copy -->
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+ <text x="52" y="68" fill="#71e7ff" font-size="17" font-weight="700" letter-spacing="4">ENGINEER • BUILDER • DREAMER</text>
+ <text x="48" y="137" fill="#fff" font-size="57" font-weight="800">PRASANNA</text>
+ <text x="52" y="178" fill="#c9caff" font-size="25" font-weight="600">Poigey</text>
+ <rect x="52" y="197" width="316" height="2" fill="#936bff"/>
+ <text x="53" y="231" fill="#e9edff" font-size="18">Embedded • AI • IoT • Robotics</text>
+ <text x="53" y="258" fill="#e9edff" font-size="18">Software built for the real world.</text>
+ <g font-size="12" font-weight="700">
+  <rect x="52" y="281" width="88" height="31" rx="15" fill="#2d1e60" stroke="#a17aff"/><text x="96" y="301" text-anchor="middle" fill="#eee8ff">BUILD</text>
+  <rect x="148" y="281" width="94" height="31" rx="15" fill="#10374a" stroke="#40e6ff"/><text x="195" y="301" text-anchor="middle" fill="#d5fbff">CREATE</text>
+  <rect x="250" y="281" width="94" height="31" rx="15" fill="#4a1c42" stroke="#ff91cd"/><text x="297" y="301" text-anchor="middle" fill="#ffe5f4">INNOVATE</text>
+ </g>
+ <text x="53" y="346" fill="#81eaff" font-size="15" font-style="italic">“Turning ideas into real-world solutions.”</text>
+ <text x="852" y="35" fill="#fff" font-size="12" letter-spacing="3">FUTURE IN PROGRESS</text>
+</g>
+<rect x="1.5" y="1.5" width="1197" height="417" rx="21" fill="none" stroke="#6584ff" stroke-opacity=".7" stroke-width="3"/>
+</svg>
