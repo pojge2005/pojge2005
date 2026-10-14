@@ -2,11 +2,11 @@
 
 **Account:** [pojge2005](https://github.com/pojge2005)  
 **Started:** 2026-10-14  
-**Scope:** First-pass inventory and README/source sampling across repositories visible to the connected GitHub account. This is not a claim that every source file has been fully tested.
+**Scope:** First-pass inventory and README/source sampling across the public repositories. Private repository names and details are intentionally excluded from this public report. This is not a claim that every source file has been fully tested.
 
 ## Completed in this pass
 
-- Enumerated 25 repositories visible to the connected account, including private repositories.
+- Enumerated 25 repositories visible to the connected account; this public report lists public repositories only.
 - Sampled README files and selected source files in the FreeRTOS/MQTT, FreeRTOS task-control, RFID security, portfolio, and SmartKeychain projects.
 - Identified missing or minimal documentation, naming inconsistencies, duplicated/overlapping project areas, and important claims that need hardware/build verification.
 - Created and merged [PR #1](https://github.com/pojge2005/ESP32-FreeRTOS-IoT/pull/1) in `ESP32-FreeRTOS-IoT`. The change documents setup, GPIOs, MQTT topics, architecture, security cautions, verification steps, and observed reliability limitations. It is documentation-only; firmware compilation and hardware behavior were not verified.
@@ -36,15 +36,11 @@
 | Repository | Initial triage | Next action |
 | --- | --- | --- |
 | `RFID-BASED-ATTENDANCE-SYSTEM-USING-ARDUINO` | Minimal README; repository size reported as 0 KB by metadata | Inspect source/hardware and write verified setup documentation |
-| `Smart-Grabage-Bin-monitoring-and-Tracking-System-Using-IoT-Technology` (private) | Substantial project; detailed README summary | Review architecture, dependencies, secrets, and run steps |
-| `protflolio` (private) | Empty/missing README | Determine whether this is intentional or a duplicate before editing |
-| `water-flow-monitoring-system` (private) | No README found in first-pass lookup | Inspect file tree and document actual implementation |
 | `Smart-Garbage-BIn-Monitoring-Tracking-System-` | Tiny repository and short README | Determine whether it is a stub or legacy duplicate |
 | `Pofolio` | Static portfolio with HTML/CSS/JS; JS filename has trailing space | Verify references and test responsive navigation/form behavior |
 | `Embedded-System-with-IOT-` | Short overview README | Inspect source and replace generic claims with verified details |
 | `Two-Layer-RFID-Security-System` | README and PIC18F4520 C source present | Security review and toolchain/build verification |
 | `data_analytics-web-page` | README is minimal | Inspect source, usage, and screenshots |
-| `data_analytics_service` (private) | Empty/missing README; metadata reports size 0 | Determine intended service and actual source state |
 | `quantivion-site` | Empty/missing README; metadata reports size 0 | Confirm whether project is active before populating |
 | `FreeRTOS-ESP32-Blink` | FreeRTOS LED demo documentation present | Verify board-specific GPIO and include tested output |
 | `FreeRTOS-ESP32` | Multiple sketches and images | Explain which sketch is canonical; add build/test notes |
@@ -53,11 +49,8 @@
 | `ESP32-FreeRTOS-IoT` | README improved and merged through PR #1 | Next: MQTT task ownership and reconnect reliability feature |
 | `RTOS-Based-OTA-Firmware-Update-System-using-ESP32-ESP8266-` | Detailed architecture description | Verify source, endpoints, security, and recovery behavior |
 | `Real-Time-Object-Tracking-System-Raspberry-Pi-OpenCV-` | README describes an OpenCV tracker | Check source tree, requirements, and reproducible run instructions |
-| `Assignment.repo` (private) | Empty/missing README; metadata reports size 0 | Identify purpose before changing |
 | `KSDA` | Next.js starter-style README | Inspect app and replace boilerplate with product-specific setup |
 | `SmartKeychain-V2` | Prototype-oriented README present | **Local source of truth:** work from `~/SmartKeychain-V2`; no direct GitHub file edits |
-| `desktop-robot-v2` (private) | No README found in first-pass lookup | Inspect local/repository source and document verified robot behavior |
-| `ai-robotics-learning-platform.` (private) | Prototype README explicitly describes browser-local data and no backend/auth | Keep private; no deployment or publication without approval |
 | `Prasanna-Profile` | Existing separate profile-artwork repository | Compare with canonical username-matching profile repository |
 | `pojge2005` | Username-matching profile README and animated SVG artwork | Keep this as the GitHub profile entry point; verify rendered external badges periodically |
 
@@ -82,4 +75,4 @@ The contribution graph itself must be checked on the account's GitHub profile an
 
 ## Status
 
-This document records a first-pass audit and one completed documentation PR. The remaining items are a prioritized backlog, not completed changes. The next code feature is tracked in [Issue #2](https://github.com/pojge2005/ESP32-FreeRTOS-IoT/issues/2). Implement it on a focused branch after establishing a reproducible compile environment.
+This document records a first-pass public-repository audit and one completed documentation PR. Private repository names and implementation details are deliberately not listed here. The remaining items are a prioritized backlog, not completed changes. The next code feature is tracked in [Issue #2](https://github.com/pojge2005/ESP32-FreeRTOS-IoT/issues/2). Implement it on a focused branch after establishing a reproducible compile environment.
