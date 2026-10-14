@@ -28,7 +28,7 @@
 - `Embedded-System-with-IOT-`, `Smart-Garbage-BIn-Monitoring-Tracking-System-`, and `ESP32-Based-OTA-Firmware-Update-System-for-STM32` need source-level review before feature claims can be validated.
 - `Pofolio` contains a JavaScript file named `script.js ` with a trailing space. Do not rename it until HTML references and deployment behavior are checked.
 - `Pofolio` and `Prasanna-Profile` are separate from the username-matching profile repository `pojge2005/pojge2005`. Keep the intended canonical profile entry point clear and avoid accidental content drift.
-- `Smart-Garbage-BIn-Monitoring-Tracking-System-` and `Smart-Grabage-Bin-monitoring-and-Tracking-System-Using-IoT-Technology` appear to cover overlapping subject matter. Compare their code and history before archiving or consolidating anything.
+- The public Smart-Garbage repository may overlap with a similarly scoped project. Compare code and history privately before archiving or consolidating anything.
 - Several repositories are empty, nearly empty, or have missing/minimal READMEs. Do not populate them with speculative code or change their visibility without a project-specific decision.
 
 ## Repository inventory (first-pass triage)
@@ -68,7 +68,7 @@ The contribution graph itself must be checked on the account's GitHub profile an
 
 - Make one focused improvement per branch and use a descriptive commit/PR title.
 - Read the actual source before changing behavior; never claim tests passed unless run.
-- Preserve private visibility and do not publish the AI/Robotics platform without approval.
+- Preserve private repository visibility; do not publish private prototypes or deploy them without approval.
 - For SmartKeychain-V2, edit and test locally first, preserve hooks, do not skip hooks, and never force-push.
 - Do not merge code changes until the diff and available checks have been reviewed. Documentation-only changes may be merged when their claims are source-checked and their limitations are explicit.
 - Do not create artificial issues, empty commits, or contrived PRs to manipulate contribution counts or achievements.
