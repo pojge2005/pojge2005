@@ -10,6 +10,7 @@
 - Sampled README files and selected source files in the FreeRTOS/MQTT, FreeRTOS task-control, RFID security, portfolio, and SmartKeychain projects.
 - Identified missing or minimal documentation, naming inconsistencies, duplicated/overlapping project areas, and important claims that need hardware/build verification.
 - Created and merged [PR #1](https://github.com/pojge2005/ESP32-FreeRTOS-IoT/pull/1) in `ESP32-FreeRTOS-IoT`. The change documents setup, GPIOs, MQTT topics, architecture, security cautions, verification steps, and observed reliability limitations. It is documentation-only; firmware compilation and hardware behavior were not verified.
+- Opened [Issue #2](https://github.com/pojge2005/ESP32-FreeRTOS-IoT/issues/2) to track the next code feature: single-task ownership of MQTT client operations, a bounded publish queue, and reconnect handling.
 
 ## First-pass findings
 
@@ -81,4 +82,4 @@ The contribution graph itself must be checked on the account's GitHub profile an
 
 ## Status
 
-This document records a first-pass audit and one completed documentation PR. The remaining items are a prioritized backlog, not completed changes. The next code feature should be the MQTT single-owner task refactor in `ESP32-FreeRTOS-IoT`, after establishing a reproducible compile environment.
+This document records a first-pass audit and one completed documentation PR. The remaining items are a prioritized backlog, not completed changes. The next code feature is tracked in [Issue #2](https://github.com/pojge2005/ESP32-FreeRTOS-IoT/issues/2). Implement it on a focused branch after establishing a reproducible compile environment.
